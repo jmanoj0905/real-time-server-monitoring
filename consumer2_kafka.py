@@ -12,7 +12,7 @@ from datetime import datetime
 
 # ------------------ CONFIG ------------------
 KAFKA_TOPICS = ['topic-net', 'topic-disk']  # Consumer 2 handles network and disk
-KAFKA_BOOTSTRAP_SERVERS = ['192.168.195.16:9092']
+KAFKA_BOOTSTRAP_SERVERS = ['<BROKER_IP>:9092']
 CONSUMER_GROUP = 'consumer2-group'
 
 # Paths - matching the pattern from consumer 1
