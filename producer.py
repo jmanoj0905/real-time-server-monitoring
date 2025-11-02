@@ -4,7 +4,7 @@ import time
 from kafka import KafkaProducer
 
 # --- CONFIG ---
-BROKER = '192.168.195.16:9092'   # Kafka broker IP
+BROKER = '<BROKER_IP>:9092'   # Kafka broker IP
 TOPICS = {
     'cpu': 'topic-cpu',
     'mem': 'topic-mem',
