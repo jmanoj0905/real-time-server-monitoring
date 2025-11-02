@@ -6,7 +6,7 @@ import os
 from datetime import datetime
 
 # ------------------ CONFIG ------------------
-BROKER = "192.168.195.16:9092"
+BROKER = "<BROKER_IP>:9092"
 TOPICS = ["topic-cpu", "topic-mem"]
 PROCESSED_DIR = "/home/pes2ug23cs313/real_time_server_monitoring/data/processed"
 
